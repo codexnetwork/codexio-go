@@ -32,12 +32,9 @@ type TransactionHeader struct {
 type Transaction struct { // WARN: is a `variant` in C++, can be a SignedTransaction or a Transaction.
 	TransactionHeader
 
-	ContextFreeActions []*Action    `json:"context_free_actions"`
-	Actions            []*Action    `json:"actions"`
-	Extensions         []*Extension `json:"transaction_extensions"`
-
-	// Fee fee is for eosforce
-	Fee                Asset        `json:"fee"`
+	ContextFreeActions []*Action   `json:"context_free_actions"`
+	Actions            []*Action   `json:"actions"`
+	Extensions         *Extensions `json:"transaction_extensions"`
 }
 
 // NewTransaction creates a transaction. Unless you plan on adding HeadBlockID later, to be complete, opts should contain it.  Sign
@@ -68,7 +65,7 @@ func (tx *Transaction) Fill(headBlockID Checksum256, delaySecs, maxNetUsageWords
 		tx.ContextFreeActions = make([]*Action, 0, 0)
 	}
 	if tx.Extensions == nil {
-		tx.Extensions = make([]*Extension, 0, 0)
+		tx.Extensions = NewExtensions()
 	}
 
 	tx.MaxNetUsageWords = Varuint32(maxNetUsageWords)

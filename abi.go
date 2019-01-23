@@ -16,7 +16,7 @@ type ABI struct {
 	Tables           []TableDef        `json:"tables,omitempty"`
 	RicardianClauses []ClausePair      `json:"ricardian_clauses,omitempty"`
 	ErrorMessages    []ABIErrorMessage `json:"error_messages,omitempty"`
-	Extensions       []*Extension      `json:"abi_extensions,omitempty"`
+	Extensions       *Extensions       `json:"abi_extensions,omitempty"`
 }
 
 func NewABI(r io.Reader) (*ABI, error) {
