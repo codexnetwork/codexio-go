@@ -255,7 +255,7 @@ type SignedBlockHeader struct {
 type SignedBlock struct {
 	SignedBlockHeader
 	Transactions    []TransactionReceipt `json:"transactions"`
-	BlockExtensions []*Extension         `json:"block_extensions"`
+	BlockExtensions *Extensions          `json:"block_extensions"`
 }
 
 func (m *SignedBlock) String() string {
