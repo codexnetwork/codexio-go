@@ -1,7 +1,7 @@
 package sudo
 
 import (
-	eos "github.com/eosforce/goeosforce"
+	eos "github.com/eosforce/goforceio"
 )
 
 // NewExec creates an `exec` action, found in the `eosio.wrap`

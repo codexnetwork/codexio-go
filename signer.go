@@ -10,7 +10,7 @@ import (
 
 	"strings"
 
-	"github.com/eosforce/goeosforce/ecc"
+	"github.com/eosforce/goforceio/ecc"
 )
 
 type Signer interface {

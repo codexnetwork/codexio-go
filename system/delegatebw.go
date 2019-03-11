@@ -1,7 +1,7 @@
 package system
 
 import (
-	eos "github.com/eosforce/goeosforce"
+	eos "github.com/eosforce/goforceio"
 )
 
 // NewDelegateBW returns a `delegatebw` action that lives on the

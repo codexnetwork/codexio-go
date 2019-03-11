@@ -1,7 +1,7 @@
 package forum
 
 import (
-	eos "github.com/eosforce/goeosforce"
+	eos "github.com/eosforce/goforceio"
 )
 
 // NewExpire is an action to expire a proposal ahead of its natural death.

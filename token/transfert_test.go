@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	eos "github.com/eosforce/goeosforce"
+	eos "github.com/eosforce/goforceio"
 	"github.com/stretchr/testify/assert"
 )
 

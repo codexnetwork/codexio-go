@@ -1,7 +1,7 @@
 EosForce API library for Go
 =========================
 
-[![GoDoc](https://godoc.org/github.com/eosforce/goeosforce?status.svg)](https://godoc.org/github.com/eosforce/goeosforce)
+[![GoDoc](https://godoc.org/github.com/eosforce/goforceio?status.svg)](https://godoc.org/github.com/eosforce/goforceio)
 
 This library provides simple access to data structures (binary packing
 and JSON interface) and API calls to an EosForce RPC server, running
@@ -14,7 +14,7 @@ flux. Don't expect stability, as we're moving alongside the main
 `eosio` codebase, which changes very fast.
 
 
-The Library is fork from https://github.com/eosforce/goeosforce
+The Library is fork from https://github.com/eosforce/goforceio
 
 License
 -------

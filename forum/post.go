@@ -1,7 +1,7 @@
 package forum
 
 import (
-	eos "github.com/eosforce/goeosforce"
+	eos "github.com/eosforce/goforceio"
 )
 
 // NewPost is an action representing a simple message to be posted

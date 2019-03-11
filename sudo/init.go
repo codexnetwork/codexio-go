@@ -1,6 +1,6 @@
 package sudo
 
-import eos "github.com/eosforce/goeosforce"
+import eos "github.com/eosforce/goforceio"
 
 func init() {
 	eos.RegisterAction(AN("eosio.wrap"), ActN("exec"), Exec{})

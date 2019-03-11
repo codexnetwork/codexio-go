@@ -5,7 +5,7 @@ import (
 
 	"flag"
 
-	"github.com/eosforce/goeosforce/p2p"
+	"github.com/eosforce/goforceio/p2p"
 )
 
 var peer = flag.String("peer", "127.0.0.1:27041", "peer")

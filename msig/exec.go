@@ -1,7 +1,7 @@
 package msig
 
 import (
-	eos "github.com/eosforce/goeosforce"
+	eos "github.com/eosforce/goforceio"
 )
 
 // NewExec returns a `exec` action that lives on the

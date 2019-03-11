@@ -1,8 +1,8 @@
 package system
 
 import (
-	"github.com/eosforce/goeosforce"
-	"github.com/eosforce/goeosforce/ecc"
+	"github.com/eosforce/goforceio"
+	"github.com/eosforce/goforceio/ecc"
 )
 
 // NewNewAccount returns a `newaccount` action that lives on the

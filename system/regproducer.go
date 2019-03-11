@@ -1,8 +1,8 @@
 package system
 
 import (
-	eos "github.com/eosforce/goeosforce"
-	"github.com/eosforce/goeosforce/ecc"
+	eos "github.com/eosforce/goforceio"
+	"github.com/eosforce/goforceio/ecc"
 )
 
 // NewRegProducer returns a `regproducer` action that lives on the

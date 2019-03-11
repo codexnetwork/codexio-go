@@ -1,6 +1,6 @@
 package system
 
-import eos "github.com/eosforce/goeosforce"
+import eos "github.com/eosforce/goforceio"
 
 // BlockchainParameters are all the params we can set through `setparams`.
 type BlockchainParameters struct {

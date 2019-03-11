@@ -1,6 +1,6 @@
 package system
 
-import "github.com/eosforce/goeosforce"
+import "github.com/eosforce/goforceio"
 
 // NewNonce returns a `nonce` action that lives on the
 // `eosio.bios` contract. It should exist only when booting a new

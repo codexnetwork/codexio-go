@@ -1,7 +1,7 @@
 package system
 
 import (
-	eos "github.com/eosforce/goeosforce"
+	eos "github.com/eosforce/goforceio"
 )
 
 // NewSellRAM will sell at current market price a given number of

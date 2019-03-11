@@ -1,7 +1,7 @@
 package p2p
 
 import (
-	"github.com/eosforce/goeosforce"
+	"github.com/eosforce/goforceio"
 )
 
 type Envelope struct {

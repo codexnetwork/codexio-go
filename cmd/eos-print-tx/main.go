@@ -7,7 +7,7 @@ import (
 	"os"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/eosforce/goeosforce"
+	"github.com/eosforce/goforceio"
 )
 
 func main() {

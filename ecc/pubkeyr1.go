@@ -2,7 +2,7 @@ package ecc
 
 import (
 	"fmt"
-	"github.com/eosforce/goeosforce/btcsuite/btcd/btcec"
+	"github.com/eosforce/goforceio/btcsuite/btcd/btcec"
 
 )
 

@@ -1,7 +1,7 @@
 package system
 
 import (
-	eos "github.com/eosforce/goeosforce"
+	eos "github.com/eosforce/goforceio"
 )
 
 // NewUnregProducer returns a `unregprod` action that lives on the

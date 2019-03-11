@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eosforce/goeosforce/ecc"
+	"github.com/eosforce/goforceio/ecc"
 )
 
 // For reference:

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/eosforce/goeosforce/eoserr"
+	"github.com/eosforce/goforceio/eoserr"
 )
 
 // APIError represents the errors as reported by the server

@@ -8,8 +8,8 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/eosforce/goeosforce/btcsuite/btcd/btcec"
-	"github.com/eosforce/goeosforce/btcsuite/btcutil/base58"
+	"github.com/eosforce/goforceio/btcsuite/btcd/btcec"
+	"github.com/eosforce/goforceio/btcsuite/btcutil/base58"
 )
 
 // ErrMalformedPrivateKey describes an error where a WIF-encoded private

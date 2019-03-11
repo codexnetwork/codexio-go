@@ -1,7 +1,7 @@
 package msig
 
 import (
-	"github.com/eosforce/goeosforce"
+	"github.com/eosforce/goforceio"
 )
 
 func init() {

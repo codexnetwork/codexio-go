@@ -7,7 +7,7 @@ package base58_test
 import (
 	"testing"
 
-	"github.com/eosforce/goeosforce/btcsuite/btcutil/base58"
+	"github.com/eosforce/goforceio/btcsuite/btcutil/base58"
 )
 
 var checkEncodingStringTests = []struct {

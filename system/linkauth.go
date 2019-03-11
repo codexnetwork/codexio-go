@@ -1,6 +1,6 @@
 package system
 
-import "github.com/eosforce/goeosforce"
+import "github.com/eosforce/goforceio"
 
 // NewLinkAuth creates an action from the `eosio.system` contract
 // called `linkauth`.

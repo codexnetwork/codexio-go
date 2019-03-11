@@ -1,6 +1,6 @@
 package system
 
-import "github.com/eosforce/goeosforce"
+import "github.com/eosforce/goforceio"
 
 // NewDeleteAuth creates an action from the `eosio.system` contract
 // called `deleteauth`.

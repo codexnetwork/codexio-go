@@ -7,7 +7,7 @@ import (
 	"go.uber.org/zap"
 	"strings"
 	"bytes"
-	"github.com/eosforce/goeosforce"
+	"github.com/eosforce/goforceio"
 	"time"
 )
 

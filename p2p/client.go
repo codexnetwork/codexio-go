@@ -8,7 +8,7 @@ import (
 
 	"time"
 
-	"github.com/eosforce/goeosforce"
+	"github.com/eosforce/goforceio"
 )
 
 type Client struct {

@@ -11,7 +11,7 @@ import (
 
 	"fmt"
 
-	"github.com/eosforce/goeosforce/ecc"
+	"github.com/eosforce/goforceio/ecc"
 	"github.com/stretchr/testify/assert"
 )
 
