@@ -221,7 +221,7 @@ type BlockHeader struct {
 	ActionMRoot      Checksum256               `json:"action_mroot"`
 	ScheduleVersion  uint32                    `json:"schedule_version"`
 	NewProducers     *OptionalProducerSchedule `json:"new_producers" eos:"optional"`
-	HeaderExtensions []*Extension              `json:"header_extensions"`
+	HeaderExtensions Extensions                `json:"header_extensions"`
 }
 
 func (b *BlockHeader) BlockNumber() uint32 {
