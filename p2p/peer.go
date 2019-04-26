@@ -19,7 +19,7 @@ import (
 
 	"bufio"
 
-	"github.com/eosforce/goforceio"
+	eos "github.com/eosforce/goforceio"
 	"github.com/eosforce/goforceio/ecc"
 )
 
@@ -269,7 +269,7 @@ func (p *Peer) SendTime() error {
 
 func (p *Peer) SendHandshake(info *HandshakeInfo) error {
 
-	publicKey, err := ecc.NewPublicKey("EOS1111111111111111111111111111111114T1Anm")
+	publicKey, err := ecc.NewPublicKey(fmt.Sprintf("%s1111111111111111111111111111111114T1Anm", ecc.PublicKeyPrefixCompat))
 	if err != nil {
 		return errors.Wrapf(err, "sending handshake to %s: create public key", p.Address)
 	}
