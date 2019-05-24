@@ -2,11 +2,10 @@ package eos
 
 import (
 	"crypto/sha256"
-	"fmt"
-
 	"encoding/binary"
 	"encoding/hex"
 	"encoding/json"
+	"fmt"
 
 	"github.com/eosforce/goforceio/ecc"
 )
@@ -221,7 +220,7 @@ type BlockHeader struct {
 	ActionMRoot      Checksum256               `json:"action_mroot"`
 	ScheduleVersion  uint32                    `json:"schedule_version"`
 	NewProducers     *OptionalProducerSchedule `json:"new_producers" eos:"optional"`
-	HeaderExtensions Extensions                `json:"header_extensions"`
+	HeaderExtensions []*Extension              `json:"header_extensions"`
 }
 
 func (b *BlockHeader) BlockNumber() uint32 {
@@ -255,7 +254,7 @@ type SignedBlockHeader struct {
 type SignedBlock struct {
 	SignedBlockHeader
 	Transactions    []TransactionReceipt `json:"transactions"`
-	BlockExtensions *Extensions          `json:"block_extensions"`
+	BlockExtensions []*Extension         `json:"block_extensions"`
 }
 
 func (m *SignedBlock) String() string {
