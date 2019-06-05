@@ -1,6 +1,6 @@
 package token
 
-import "github.com/eosforce/goforceio"
+import "github.com/codexnetwork/codexio-go"
 
 func init() {
 	eos.RegisterAction(AN("eosio.token"), ActN("transfer"), Transfer{})

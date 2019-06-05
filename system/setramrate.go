@@ -1,7 +1,7 @@
 package system
 
 import (
-	eos "github.com/eosforce/goforceio"
+	eos "github.com/codexnetwork/codexio-go"
 )
 
 func NewSetRAMRate(bytesPerBlock uint16) *eos.Action {

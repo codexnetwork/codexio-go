@@ -1,7 +1,7 @@
 package msig
 
 import (
-	eos "github.com/eosforce/goforceio"
+	eos "github.com/codexnetwork/codexio-go"
 )
 
 // NewUnapprove returns a `unapprove` action that lives on the

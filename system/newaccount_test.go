@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	eos "github.com/eosforce/goforceio"
-	"github.com/eosforce/goforceio/ecc"
+	eos "github.com/codexnetwork/codexio-go"
+	"github.com/codexnetwork/codexio-go/ecc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -19,8 +19,8 @@ import (
 
 	"bufio"
 
-	eos "github.com/eosforce/goforceio"
-	"github.com/eosforce/goforceio/ecc"
+	eos "github.com/codexnetwork/codexio-go"
+	"github.com/codexnetwork/codexio-go/ecc"
 )
 
 type Peer struct {

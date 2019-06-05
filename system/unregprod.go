@@ -1,7 +1,7 @@
 package system
 
 import (
-	eos "github.com/eosforce/goforceio"
+	eos "github.com/codexnetwork/codexio-go"
 )
 
 // NewUnregProducer returns a `unregprod` action that lives on the

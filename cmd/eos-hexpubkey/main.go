@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/eosforce/goforceio/ecc"
+	"github.com/codexnetwork/codexio-go/ecc"
 )
 
 func main() {

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eosforce/goforceio/ecc"
+	"github.com/codexnetwork/codexio-go/ecc"
 	"go.uber.org/zap"
 
 	"github.com/tidwall/gjson"

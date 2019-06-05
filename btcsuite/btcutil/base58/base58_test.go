@@ -9,7 +9,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/eosforce/goforceio/btcsuite/btcutil/base58"
+	"github.com/codexnetwork/codexio-go/btcsuite/btcutil/base58"
 )
 
 var stringTests = []struct {

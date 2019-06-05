@@ -1,7 +1,7 @@
 package system
 
 import (
-	eos "github.com/eosforce/goforceio"
+	eos "github.com/codexnetwork/codexio-go"
 )
 
 func NewBidname(bidder, newname eos.AccountName, bid eos.Asset) *eos.Action {

@@ -1,7 +1,7 @@
 package system
 
 import (
-	eos "github.com/eosforce/goforceio"
+	eos "github.com/codexnetwork/codexio-go"
 )
 
 // NewUndelegateBW returns a `undelegatebw` action that lives on the

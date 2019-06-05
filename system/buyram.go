@@ -1,7 +1,7 @@
 package system
 
 import (
-	eos "github.com/eosforce/goforceio"
+	eos "github.com/codexnetwork/codexio-go"
 )
 
 func NewBuyRAM(payer, receiver eos.AccountName, eosQuantity uint64) *eos.Action {

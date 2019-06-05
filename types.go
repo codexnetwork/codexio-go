@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eosforce/goforceio/ecc"
+	"github.com/codexnetwork/codexio-go/ecc"
 )
 
 var symbolRegex = regexp.MustCompile("^[0-9],[A-Z]{1,7}$")

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/eosforce/goforceio"
+	"github.com/codexnetwork/codexio-go"
 	"github.com/stretchr/testify/assert"
 )
 

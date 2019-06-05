@@ -1,7 +1,7 @@
 package forum
 
 import (
-	eos "github.com/eosforce/goforceio"
+	eos "github.com/codexnetwork/codexio-go"
 )
 
 // Status is an action to set a status update for a given account on the forum contract.

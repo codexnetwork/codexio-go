@@ -1,6 +1,6 @@
 package system
 
-import eos "github.com/eosforce/goforceio"
+import eos "github.com/codexnetwork/codexio-go"
 
 // NewSetPriv returns a `setpriv` action that lives on the
 // `eosio.bios` contract. It should exist only when booting a new

@@ -1,6 +1,6 @@
 package token
 
-import eos "github.com/eosforce/goforceio"
+import eos "github.com/codexnetwork/codexio-go"
 
 func NewCreate(issuer eos.AccountName, maxSupply eos.Asset) *eos.Action {
 	return &eos.Action{

@@ -3,8 +3,8 @@ package ecc
 import (
 	"fmt"
 
-	"github.com/eosforce/goforceio/btcsuite/btcd/btcec"
-	"github.com/eosforce/goforceio/btcsuite/btcutil"
+	"github.com/codexnetwork/codexio-go/btcsuite/btcd/btcec"
+	"github.com/codexnetwork/codexio-go/btcsuite/btcutil"
 )
 
 type innerK1PrivateKey struct {

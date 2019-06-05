@@ -1,7 +1,7 @@
 package forum
 
 import (
-	eos "github.com/eosforce/goforceio"
+	eos "github.com/codexnetwork/codexio-go"
 )
 
 // NewUnVote is an action representing the action to undoing a current vote

@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/eosforce/goforceio/ecc"
+	"github.com/codexnetwork/codexio-go/ecc"
 )
 
 type API struct {

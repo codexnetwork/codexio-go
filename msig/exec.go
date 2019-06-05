@@ -1,7 +1,7 @@
 package msig
 
 import (
-	eos "github.com/eosforce/goforceio"
+	eos "github.com/codexnetwork/codexio-go"
 )
 
 // NewExec returns a `exec` action that lives on the

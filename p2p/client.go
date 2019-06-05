@@ -9,7 +9,7 @@ import (
 
 	"time"
 
-	"github.com/eosforce/goforceio"
+	"github.com/codexnetwork/codexio-go"
 )
 
 type Client struct {

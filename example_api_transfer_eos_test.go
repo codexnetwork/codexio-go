@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	eos "github.com/eoscanada/eos-go"
-	"github.com/eoscanada/eos-go/token"
+	eos "github.com/codexnetwork/codexio-go"
+	"github.com/codexnetwork/codexio-go/token"
 )
 
 func ExampleAPI_PushTransaction_transfer_EOS() {

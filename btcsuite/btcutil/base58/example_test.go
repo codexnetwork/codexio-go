@@ -7,7 +7,7 @@ package base58_test
 import (
 	"fmt"
 
-	"github.com/eosforce/goforceio/btcsuite/btcutil/base58"
+	"github.com/codexnetwork/codexio-go/btcsuite/btcutil/base58"
 )
 
 // This example demonstrates how to decode modified base58 encoded data.

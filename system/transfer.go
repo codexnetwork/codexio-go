@@ -1,6 +1,6 @@
 package system
 
-import eos "github.com/eosforce/goforceio"
+import eos "github.com/codexnetwork/codexio-go"
 
 func NewTransfer(from, to eos.AccountName, quantity eos.Asset, memo string) *eos.Action {
 	return &eos.Action{

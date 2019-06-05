@@ -1,7 +1,7 @@
 package forum
 
 import (
-	eos "github.com/eosforce/goforceio"
+	eos "github.com/codexnetwork/codexio-go"
 )
 
 // NewVote is an action representing a simple vote to be broadcast

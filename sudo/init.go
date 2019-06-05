@@ -1,6 +1,6 @@
 package sudo
 
-import eos "github.com/eosforce/goforceio"
+import eos "github.com/codexnetwork/codexio-go"
 
 func init() {
 	eos.RegisterAction(AN("eosio.wrap"), ActN("exec"), Exec{})

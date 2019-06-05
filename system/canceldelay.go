@@ -1,6 +1,6 @@
 package system
 
-import "github.com/eosforce/goforceio"
+import "github.com/codexnetwork/codexio-go"
 
 // NewCancelDelay creates an action from the `eosio.system` contract
 // called `canceldelay`.

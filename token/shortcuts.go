@@ -1,6 +1,6 @@
 package token
 
-import eos "github.com/eosforce/goforceio"
+import eos "github.com/codexnetwork/codexio-go"
 
 var AN = eos.AN
 var PN = eos.PN

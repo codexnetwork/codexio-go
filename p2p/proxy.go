@@ -7,7 +7,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/eosforce/goforceio"
+	"github.com/codexnetwork/codexio-go"
 )
 
 type Proxy struct {

@@ -1,7 +1,7 @@
 package msig
 
 import (
-	eos "github.com/eosforce/goforceio"
+	eos "github.com/codexnetwork/codexio-go"
 )
 
 // NewCancel returns a `cancel` action that lives on the

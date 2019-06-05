@@ -15,7 +15,7 @@ import (
 
 	"io/ioutil"
 
-	"github.com/eosforce/goforceio/ecc"
+	"github.com/codexnetwork/codexio-go/ecc"
 	"go.uber.org/zap"
 )
 

@@ -1,6 +1,6 @@
 package token
 
-import eos "github.com/eosforce/goforceio"
+import eos "github.com/codexnetwork/codexio-go"
 
 func NewIssue(to eos.AccountName, quantity eos.Asset, memo string) *eos.Action {
 	return &eos.Action{

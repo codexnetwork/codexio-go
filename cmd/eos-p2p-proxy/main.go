@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/eosforce/goforceio/p2p"
+	"github.com/codexnetwork/codexio-go/p2p"
 )
 
 var peer1 = flag.String("peer1", "localhost:9876", "peer 1")

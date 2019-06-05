@@ -1,8 +1,8 @@
 package system
 
 import (
-	"github.com/eosforce/goforceio"
-	"github.com/eosforce/goforceio/ecc"
+	"github.com/codexnetwork/codexio-go"
+	"github.com/codexnetwork/codexio-go/ecc"
 )
 
 // NewNewAccount returns a `newaccount` action that lives on the
